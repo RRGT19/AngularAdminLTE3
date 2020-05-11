@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'AngularAdminLTE3'`, () => {
+  it(`should have as title 'lucky-caribbean-backoffice'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('AngularAdminLTE3');
+    expect(app.title).toEqual('lucky-caribbean-backoffice');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('AngularAdminLTE3 app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('lucky-caribbean-backoffice app is running!');
   });
 });
